@@ -1,12 +1,11 @@
 {
-    "manifest_version": 3,
-    "name": "WLU Bookmarks",
-    "version": "3.1.2.4567",
-    "description": "Saves all the essential websites for Wilfrid Laurier University in one place",
-    "icons": {"128": "icon-big.png"},
-    "action" : {
-        "default_icon": "img/icon.png",
-        "default_popup": "popup.html"
-    }
+  "manifest_version": 3,
+  "name": "WLU Bookmarks",
+  "version": "3.1.2.4567",
+  "description": "Saves all the essential websites for Wilfrid Laurier University in one place",
+  "icons": {"128": "icon-big.png"},
+  "action" : {
+      "default_icon": "img/icon.png",
+      "default_popup": "popup.html"
   }
-  
+}
