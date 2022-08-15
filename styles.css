@@ -1,0 +1,67 @@
+h1{
+    font-family: 'Menlo', monospace;
+    font-size: 22px;
+    font-weight: 400;
+    padding-top: 10px;
+    margin: 0;
+    color:rgb(255, 197, 52);
+    background-color: blueviolet;
+}
+
+body{
+  font-family: 'Open sans', sans-serif;
+  font-size: 14px;
+  margin: 0;
+  min-height: 180px;
+  text-align: center;
+}
+
+p{
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+}
+
+a:link, a:visited{
+    color: black;
+    outline: 0;
+}
+
+.logo-icon{
+  width: 65px;
+  left: 35px;
+  position: absolute;
+}
+
+.header{
+    align-items: center;
+    border-bottom: 0.5px solid #dadada;
+}
+
+.content{
+    padding: 0 22px;
+}
+
+.icons{
+    border-top: 0.5px solid #dadada;
+    height: 50px;
+    width: 100%
+}
+
+.flex-container{
+  display: flex;
+  justify-content: space-inbetween;
+  padding: 10px 15px;
+}
+
+.flex{
+  opacity: 1;
+  transition: opacity 0.2s ease-in-out;
+  width: 120px;
+}
+
+.flex:hover{
+  opacity:0.5;
+  transform:scale(1.1,1.1);
+  transition: transform .2s;
+}
